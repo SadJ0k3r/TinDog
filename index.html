@@ -54,7 +54,6 @@
         </div>
       </nav>
 
-
       <!-- Title -->
 
       <div class="row">
@@ -74,7 +73,6 @@
     </div>
 
   </section>
-
 
   <!-- Features -->
 
@@ -102,10 +100,8 @@
         </div>
       </div>
 
-
     </div>
   </section>
-
 
   <!-- Testimonials -->
 
@@ -134,7 +130,6 @@
 
   </section>
 
-
   <!-- Press -->
 
   <section class="colored-section" id="press">
@@ -142,16 +137,14 @@
     <img class="press-logo" src="tnw.png" alt="tnw-logo">
     <img class="press-logo" src="bizinsider.png" alt="biz-insider-logo">
     <img class="press-logo" src="mashable.png" alt="mashable-logo">
-
   </section>
-
 
   <!-- Pricing -->
 
   <section class="white-section" id="pricing">
 
     <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
+    <p>Simple and affordable price plans for you and your dog.</p>
 
     <div class="row">
 
@@ -192,22 +185,18 @@
           </div>
           <div class="card-body">
             <h2 class="price-text">$99 / mo</h2>
-            <p>Pirority Listing</p>
+            <p>Priority Listing</p>
             <p>Unlimited Matches</p>
             <p>Unlimited Messages</p>
             <p>Unlimited App Usage</p>
             <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
-
           </div>
         </div>
       </div>
 
-
-
     </div>
 
   </section>
-
 
   <!-- Call to Action -->
 
@@ -217,10 +206,9 @@
 
       <h3 class="big-heading">Find the True Love of Your Dog's Life Today.</h3>
       <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
-      <button class="download-button btn btn-lg brn-light" type="button"><i class="fab fa-google-play"></i> Download</button>
+      <button class="download-button btn btn-lg btn-light" type="button"><i class="fab fa-google-play"></i> Download</button>
     </div>
   </section>
-
 
   <!-- Footer -->
 
@@ -230,10 +218,15 @@
       <i class="social-icon fab fa-twitter"></i>
       <i class="social-icon fab fa-instagram"></i>
       <i class="social-icon fas fa-envelope"></i>
-      <p>© Copyright 2022 TinDog</p>
+      <p>© Copyright <span id="currentYear"></span> TinDog</p>
     </div>
-  </footer>
 
+    <!-- JavaScript to update the current year dynamically -->
+    <script>
+      document.getElementById('currentYear').innerHTML = new Date().getFullYear();
+    </script>
+
+  </footer>
 
 </body>
 
