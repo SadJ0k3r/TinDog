@@ -210,23 +210,23 @@
     </div>
   </section>
 
-  <!-- Footer -->
+<!-- Footer -->
 
-  <footer class="white-section" id="footer">
-    <div class="container-fluid">
-      <i class="social-icon fab fa-facebook-f"></i>
-      <i class="social-icon fab fa-twitter"></i>
-      <i class="social-icon fab fa-instagram"></i>
-      <i class="social-icon fas fa-envelope"></i>
-      <p>TinDog © Copyright <span id="currentYear"></span></p>
-    </div>
+<footer class="white-section" id="footer">
+  <div class="container-fluid">
+    <i class="social-icon fab fa-facebook-f"></i>
+    <i class="social-icon fab fa-twitter"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <i class="social-icon fas fa-envelope"></i>
+    <p>&copy; 2023 - TinDog</p>
+  </div>
 
-    <!-- JavaScript to update the current year dynamically -->
-    <script>
-      document.getElementById('currentYear').innerHTML = new Date().getFullYear();
-    </script>
+  <!-- JavaScript to update the current year dynamically -->
+  <script>
+    document.querySelector("#footer p").innerHTML = "&copy; " + new Date().getFullYear() + " - TinDog";
+  </script>
+</footer>
 
-  </footer>
 
 </body>
 
