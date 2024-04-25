@@ -64,3 +64,5 @@ Contributions are welcome! If you have ideas for new features or improvements, f
 This project is licensed under the MIT License. Refer to the LICENSE file for details.
 
 ---
+
+*Remember, every dog deserves a little love and a wagging tail!* 🐾
